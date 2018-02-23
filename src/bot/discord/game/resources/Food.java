@@ -1,4 +1,12 @@
 package bot.discord.game.resources;
 
-public class Food {
+import java.util.logging.Logger.*;
+
+public class Food extends Resource {
+
+    public Food(){
+        super("Food");
+    }
+
+
 }
