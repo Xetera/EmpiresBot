@@ -15,7 +15,7 @@ public class ResourceCollector extends Building{
 //returns how much of a resource is collected
   public int collect(){
     //100 per level
-    return 100 * super.level;
+    return 100 * level;
   }
 
 }
